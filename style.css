@@ -3,11 +3,16 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: #ffffff;
 }
 
-/* body background color */
+/* body background color and paragraph elements*/
 body {
     background-color: #d9dcd6;
+}
+
+p {
+    font-size: 16px;
 }
 
 /* This section formats the header box and its elements: 
@@ -16,7 +21,6 @@ company name and navigation links */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
 .header h1 {
@@ -25,7 +29,7 @@ company name and navigation links */
 }
 
 .header h1 .seo {
-    color: #c7b169;
+    color: #d9dcd6;
 }
 
 .header div {
@@ -46,24 +50,17 @@ company name and navigation links */
 }
 
 .header div ul li a {
-    color: #ffffff;
     text-decoration: none;
 }
 
 /* This section formats the main image section */
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
-}
 
-.hero img {
+.hero {
     object-fit: cover;
     height: 800px;
     width: 100%;
     background-position: center;
+    margin-bottom: 25px;
 }
 
 /* This section formats the main text boxes */
@@ -82,35 +79,12 @@ company name and navigation links */
     font-size: 36px;
 }
 
-.search-engine-optimization {
+.box {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-p {
-    font-size: 16px;
 }
 
 .float-left {
@@ -123,7 +97,7 @@ p {
     margin-left: 25px;
 }
 
-/* This section formats the side bar section */
+/* This section formats the side bar elements */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -135,19 +109,8 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-box {
     margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
 }
 
 .benefit h3 {
@@ -155,19 +118,7 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-box img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
